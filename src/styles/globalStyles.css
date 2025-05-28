@@ -1,0 +1,23 @@
+:root {
+  --brand-1: #4c6ef5;
+  --brand-2: #364fc7;
+
+  --gray-100: #191c1f; /* 1 */
+  --gray-400: #212529; /* 2 */
+  --gray-500: #343a40; /* 3 */
+  --gray-600: #adb5bd; /* 4 */
+  --gray-700: #ced4da; /* 5 */
+  --gray-800: #edf2ff; /* 6 */
+  --gray-900: #f8f9fa; /* 7 */
+
+  --font-family-inter: "Inter", sans-serif;
+
+  --title-1: 600 52px/140%;
+  --title-2: 600 40px/160%;
+  --title-3: 600 32px/160%;
+
+  --text-1: 400 20px/150%;
+  --text-2: 400 18px/150%;
+  --text-3: 400 16px/150%;
+  --text-4: 600 16px/150%;
+}
