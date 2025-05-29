@@ -35,3 +35,7 @@ dialog {
   border: none;
   padding: 0;
 }
+
+input {
+  border: none;
+}
