@@ -1,23 +1,28 @@
+@import url(./reset.css);
+@import url(./index.css);
+@import url(./indexResponsive.css);
 :root {
   --brand-1: #4c6ef5;
   --brand-2: #364fc7;
 
-  --gray-1: #191c1f; /* 100 */
-  --gray-2: #212529; /* 400 */
-  --gray-3: #343a40; /* 500 */
-  --gray-4: #adb5bd; /* 600 */
-  --gray-5: #ced4da; /* 700 */
-  --gray-6: #edf2ff; /* 800 */
-  --gray-7: #f8f9fa; /* 900 */
-
+  --gray-1: #191c1f;
+  --gray-2: #212529;
+  --gray-3: #343a40;
+  --gray-4: #adb5bd;
+  --gray-5: #ced4da;
+  --gray-6: #edf2ff;
+  --gray-7: #f8f9fa;
   --font-family-inter: "Inter", sans-serif;
 
-  --title-1: 600 52px/140% 'Inter', sans-serif;
-  --title-2: 600 40px/160% 'Inter', sans-serif;
-  --title-3: 600 32px/160% 'Inter', sans-serif;
+  --title-1: 600 clamp(2rem, 5vw + 1rem, 3.25rem) / 140% "Inter", sans-serif;
+  --title-2: 600 clamp(1.75rem, 4vw + 1rem, 2.5rem) / 160% "Inter", sans-serif;
+  --title-3: 600 clamp(1.25rem, 3vw + 1rem, 2rem) / 160% "Inter", sans-serif;
 
-  --text-1: 400 20px/150% 'Inter', sans-serif;
-  --text-2: 400 18px/150% 'Inter', sans-serif;
-  --text-3: 400 16px/150% 'Inter', sans-serif;
-  --text-4: 600 16px/150% 'Inter', sans-serif;
+  --text-1: 400 clamp(1rem, 1vw + 0.5rem, 1.25rem) / 150% "Inter", sans-serif;
+  --text-2: 400 clamp(0.875rem, 1vw + 0.4rem, 1.125rem) / 150% "Inter",
+    sans-serif;
+  --text-3: 400 clamp(0.8125rem, 0.8vw + 0.4rem, 1rem) / 150% "Inter",
+    sans-serif;
+  --text-4: 600 clamp(0.8125rem, 0.8vw + 0.4rem, 1rem) / 150% "Inter",
+    sans-serif;
 }
